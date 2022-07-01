@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_kurslarFragment"
+            app:destination="@id/kurslarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_gurhlarFragment"
+            app:destination="@id/gurhlarFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mentorlarFragment"
+            app:destination="@id/mentorlarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kurslarFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.KurslarFragment"
+        android:label="fragment_kurslar"
+        tools:layout="@layout/fragment_kurslar" >
+        <action
+            android:id="@+id/action_kurslarFragment_to_kurslarMalumotFragment"
+            app:destination="@id/kurslarMalumotFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gurhlarFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.GurhlarFragment"
+        android:label="fragment_gurhlar"
+        tools:layout="@layout/fragment_gurhlar" >
+        <action
+            android:id="@+id/action_gurhlarFragment_to_gurhlarMalumaotFragment"
+            app:destination="@id/gurhlarMalumaotFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorlarFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.MentorlarFragment"
+        android:label="fragment_mentorlar"
+        tools:layout="@layout/fragment_mentorlar" >
+        <action
+            android:id="@+id/action_mentorlarFragment_to_mentorlarRoyhatFragment"
+            app:destination="@id/mentorlarRoyhatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kurslarMalumotFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.KurslarMalumotFragment"
+        android:label="fragment_kurslar_malumot"
+        tools:layout="@layout/fragment_kurslar_malumot" >
+    </fragment>
+    <fragment
+        android:id="@+id/gurhlarMalumaotFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.GurhlarMalumaotFragment"
+        android:label="fragment_gurhlar_malumaot"
+        tools:layout="@layout/fragment_gurhlar_malumaot" >
+        <action
+            android:id="@+id/action_gurhlarMalumaotFragment_to_guruhQoshishFragment"
+            app:destination="@id/guruhQoshishFragment" />
+        <action
+            android:id="@+id/action_gurhlarMalumaotFragment_to_guruhlarTalabaQoshishFragment"
+            app:destination="@id/guruhlarTalabaQoshishFragment" />
+        <action
+            android:id="@+id/action_gurhlarMalumaotFragment_to_guruhgaKirishFragment"
+            app:destination="@id/guruhgaKirishFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/guruhQoshishFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.GuruhQoshishFragment"
+        android:label="fragment_guruh_qoshish"
+        tools:layout="@layout/fragment_guruh_qoshish" />
+    <fragment
+        android:id="@+id/guruhlarTalabaQoshishFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.GuruhlarTalabaQoshishFragment"
+        android:label="fragment_guruhlar_talaba_qoshish"
+        tools:layout="@layout/fragment_guruhlar_talaba_qoshish" />
+    <fragment
+        android:id="@+id/editOquvchiFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.EditOquvchiFragment"
+        android:label="fragment_edit_oquvchi"
+        tools:layout="@layout/fragment_edit_oquvchi" />
+    <fragment
+        android:id="@+id/guruhgaKirishFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.GuruhgaKirishFragment"
+        android:label="fragment_guruhga_kirish"
+        tools:layout="@layout/fragment_guruhga_kirish" >
+        <action
+            android:id="@+id/action_guruhgaKirishFragment_to_editOquvchiFragment"
+            app:destination="@id/editOquvchiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorlarRoyhatFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.MentorlarRoyhatFragment"
+        android:label="fragment_mentorlar_royhat"
+        tools:layout="@layout/fragment_mentorlar_royhat" >
+        <action
+            android:id="@+id/action_mentorlarRoyhatFragment_to_mentorQoshishFragment"
+            app:destination="@id/mentorQoshishFragment" />
+        <action
+            android:id="@+id/action_mentorlarRoyhatFragment_to_mentorRoyhatMalumotFragment"
+            app:destination="@id/mentorRoyhatMalumotFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorQoshishFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.MentorQoshishFragment"
+        android:label="fragment_mentor_qoshish"
+        tools:layout="@layout/fragment_mentor_qoshish" />
+    <fragment
+        android:id="@+id/mentorRoyhatMalumotFragment"
+        android:name="developer.abdulahad.codialapp.Fragment.MentorRoyhatMalumotFragment"
+        android:label="fragment_mentor_royhat_malumot"
+        tools:layout="@layout/fragment_mentor_royhat_malumot" />
+</navigation>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.KurslarMalumotFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#FFB800">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="@dimen/_26sdp"
+            android:layout_height="@dimen/_26sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:src="@drawable/ic_arrow_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:text="Android development"
+            android:textColor="#1E5379"
+            android:textSize="@dimen/_17sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="@dimen/_32sdp"
+            android:layout_height="@dimen/_32sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/ic_delete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/tv_malumot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_15sdp"
+        android:text="Android kursida siz dastlab kotlin dasturlash tili o’rganasiz.\n\nShundan so’ng, sodda va murakkab ko’rinishidagi UI komponentlari yordamida mobil ilovalarning tashqi dizayn ko’rinishi qannday yaratish o’rgatiladi.\n\nSQlite malumotlar bazasi hamda ROOM va realm kabi mashhur kutubxonalar, API tushunchasi va internet orqali ishlovchi dasturlar strukturasi, Firebase texnologiyasi, shuningdek hozirda judayam ko’p foydalanilayotgan arxitektura komponentalari, dagger kutubxonalari orqali murakkab mobil ilovalar yaratish imkoniyatiga ega bo’lasiz."
+        android:textColor="#1E5379"
+        android:textSize="@dimen/_17sdp" />
+</LinearLayout>

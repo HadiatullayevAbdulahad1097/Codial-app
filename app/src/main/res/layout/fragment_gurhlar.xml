@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment.GurhlarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#FFB800"
+        >
+
+         <ImageView
+             android:id="@+id/back"
+             android:layout_width="@dimen/_26sdp"
+             android:layout_height="@dimen/_26sdp"
+             android:src="@drawable/ic_arrow_back"
+             android:layout_marginLeft="@dimen/_10sdp"
+             android:layout_gravity="center"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barcha Kurslar"
+            android:layout_gravity="center"
+            android:textColor="#1E5379"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_17sdp"
+            android:layout_margin="@dimen/_10sdp"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_gurhlar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_rvlar"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+
+</LinearLayout>

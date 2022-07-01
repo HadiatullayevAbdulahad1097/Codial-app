@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_list_item_1.xml" value="0.3880208333333333" />
+        <entry key="../../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.3880208333333333" />
+        <entry key="../../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.3880208333333333" />
+        <entry key="../../../Library/Android/sdk/platforms/android-32/data/res/layout/test_list_item.xml" value="0.2078125" />
+        <entry key="app/src/main/res/drawable/ic_edit_dialog.xml" value="0.1675" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/fragment_edit_oquvchi.xml" value="0.28454335530598956" />
+        <entry key="app/src/main/res/layout/fragment_gurhlar.xml" value="0.2556401570638021" />
+        <entry key="app/src/main/res/layout/fragment_gurhlar_malumaot.xml" value="0.25415261837728365" />
+        <entry key="app/src/main/res/layout/fragment_gurhlarga_kirish.xml" value="0.2677754720052083" />
+        <entry key="app/src/main/res/layout/fragment_guruh_qoshish.xml" value="0.23371938069661458" />
+        <entry key="app/src/main/res/layout/fragment_guruhga_kirish.xml" value="0.3531590779622396" />
+        <entry key="app/src/main/res/layout/fragment_guruhlar_talaba_qoshish.xml" value="0.2828648885091145" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26975606282552067" />
+        <entry key="app/src/main/res/layout/fragment_kurslar.xml" value="0.26592915852864585" />
+        <entry key="app/src/main/res/layout/fragment_kurslar_malumot.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_kursor_qoshish.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_mentor_qoshish.xml" value="0.28209279378255203" />
+        <entry key="app/src/main/res/layout/fragment_mentor_royhat_malumot.xml" value="0.31875" />
+        <entry key="app/src/main/res/layout/fragment_mentorlar.xml" value="0.2688496907552083" />
+        <entry key="app/src/main/res/layout/fragment_mentorlar_royhat.xml" value="0.2947987874348958" />
+        <entry key="app/src/main/res/layout/fragment_view_pager.xml" value="0.2656941731770833" />
+        <entry key="app/src/main/res/layout/fragment_view_pager2.xml" value="0.2819081624348958" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.38697916666666665" />
+        <entry key="app/src/main/res/layout/item_dialog.xml" value="0.3177083333333333" />
+        <entry key="app/src/main/res/layout/item_dialog_delete_guruhlar.xml" value="0.32462514241536455" />
+        <entry key="app/src/main/res/layout/item_dialog_edit_mentor.xml" value="0.17366282145182288" />
+        <entry key="app/src/main/res/layout/item_dilog_ochirish.xml" value="0.3177083333333333" />
+        <entry key="app/src/main/res/layout/item_guruhlar_dialog.xml" value="0.23066864013671876" />
+        <entry key="app/src/main/res/layout/item_guruhlar_malumot.xml" value="0.31853637695312503" />
+        <entry key="app/src/main/res/layout/item_rv_mentors.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_rv_oquvchilar.xml" value="0.2662470499674479" />
+        <entry key="app/src/main/res/layout/item_rvlar.xml" value="0.2787684122721354" />
+        <entry key="app/src/main/res/layout/item_spinner.xml" value="0.30682067871093754" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
